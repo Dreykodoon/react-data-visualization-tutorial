@@ -1,2 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-document.body.innerText = "Starter File is working.";
+import App from './components/App';
+
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('react')
+);
